@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Lord Of The Rings Fan Page</title>
+<meta charset="UTF-8">
+   
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   
+<link rel="stylesheet" href="SiteStyle/global.css">
+</head>
+<body>
+
+<div class="header">
+    
+  <h1><span><b>EVERYTHING</b></span> Lord Of The Rings</h1>
+</div>
+
+<div class="navbar">
+  <a href="index.html"><b>Home</b></a>
+  <a href="Characters.html"><b>Characters</b></a>
+  <a href="Cast.html"><b>Cast</b></a>
+  <a href="#" class="right"><b>Other</b></a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2 style="color: goldenrod;display:inline-flex"><b>The Fellowship of The</b></h2>
+      <img src="SiteImage/Ring.png" style="float:right;display: inline;padding-bottom: 10px;padding-right: 40px">
+    <img class="mySlides" src="./SiteImage/Frodo.jpg" style="width:100%">
+    <img class="mySlides" src="./SiteImage/Samwise.jpg" style="width:100%">
+    <img class="mySlides" src="./SiteImage/Pippin.jfif" style="width:100%">
+    <img class="mySlides" src="./SiteImage/Merry.jfif" style="width:100%">
+    <img class="mySlides" src="./SiteImage/Gandalf.jfif" style="width:100%">
+    <img class="mySlides" src="./SiteImage/Aragorn.jpg" style="width:100%">
+    <img class="mySlides" src="./SiteImage/Gimli.jpg" style="width:100%">
+    <img class="mySlides" src="./SiteImage/Legolas.jfif" style="width:100%">
+    <img class="mySlides" src="./SiteImage/Boromir.jpg" style="width:100%">
+    <img class="mySlides" src="./SiteImage/Fellowship.jpg" style="width:100%">
+   
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+    <p><b>Relive the tales of adventure with our Heroes.</b></p>
+    <h3 style="color: goldenrod">Members of the Fellowship</h3>
+    <li>Frodo</li>
+      <br>
+      <li>Sam</li>
+      <br>
+      <li>Pippin</li>
+      <br>
+      <li>Merry</li>
+      <br>
+      <li>Gandalf</li>
+      <br>
+      <li>Aragorn</li>
+      <br>
+      <li>Gimli</li>
+      <br>
+      <li>Legolas</li>
+      <br>
+      <li>Boromir</li>
+  </div>
+   
+  <div class="main">
+      <h1 style="background: #333;color: goldenrod">NEWS</h1>
+    <h2>The Lord of the Rings: Rise to War™ Officially Releases Worldwide on Sept. 23</h2>
+    <h5>Published, Oct 2, 2021</h5>
+    <figure class="img" alt="Rise To War"></figure>
+      <figcaption><i>LOTR Game</i></figcaption>
+    <p><b> New Geostrategic Mobile Game based on Middle-earth coming to players in Europe, the Americas, Oceania and Southeast Asia</b></p>
+    <p> <b>NetEase Games and Warner Bros. Interactive Entertainment</b> today announced that The Lord of the Rings: Rise to War will officially launch in Europe, the Americas, Oceania and Southeast Asia on Sept. 23. This officially licensed mobile strategy game will be available for download on the App Store, Google Play Store and Galaxy Store. Players are invited to join the great war and experience this faithful rendition of Middle-earth, based on the iconic trilogy of books by J.R.R. Tolkien and OSCAR®-winning film adaptations directed by Peter Jackson.<br><b><a href="https://www.lotr-risetowar.com/news/20210923/32839_974134.html">Original article here.</a></b></p>
+    <br>
+    <h2>The Lord of the Rings Amazon Original Series</h2>
+    <h5>Published, Oct 2, 2021</h5>
+    <figure class="img2" alt="The One Ring"></figure>
+      <figcaption><i>Upcoming Series</i></figcaption>
+    <p><b>Amazon Studios’ forthcoming series brings to screens for the very first time the heroic legends of the fabled Second Age of Middle-earth's history.</b></p>
+    <p> This epic drama is set thousands of years before the events of J.R.R. Tolkien’s The Hobbit and The Lord of the Rings, and will take viewers back to an era in which great powers were forged, kingdoms rose to glory and fell to ruin, unlikely heroes were tested, hope hung by the finest of threads, and the greatest villain that ever flowed from Tolkien’s pen threatened to cover all the world in darkness. Beginning in a time of relative peace, the series follows an ensemble cast of characters, both familiar and new, as they confront the long-feared re-emergence of evil to Middle-earth. From the darkest depths of the Misty Mountains, to the majestic forests of the elf-capital of Lindon, to the breathtaking island kingdom of Númenor, to the furthest reaches of the map, these kingdoms and characters will carve out legacies that live on long after they are gone.<br><b><a href="https://press.amazonstudios.com/us/en/original-series/the-lord-of-the-rings-amazon-original-series/1">Original article here.</a></b></p>
+  </div>
+</div>
+<div class="footer">
+  <h2><i>Created by: Leonardo Martinez Rivera</i></h2>
+    <p><i>Curso ITP2350</i></p>
+        <a href="mailto:lmartinez234@live.edpuniversity.edu">
+                    lmartinez234@live.edpuniversity.edu</a>
+</div>
+
+</body>
+</html>
